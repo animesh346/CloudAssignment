@@ -39,7 +39,7 @@ jobs:
 
       - name: Set X-Frame-Options header
         run: |
-          az webapp config set --name 'mywebsitebca' --http-headers "X-Frame-Options: DENY"
+          az webapp config set --name "mywebsitebca" --http-headers "X-Frame-Options: DENY"
 
   deploy:
     runs-on: ubuntu-latest
